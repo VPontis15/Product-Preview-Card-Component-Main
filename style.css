@@ -105,8 +105,8 @@ body {
 
 .product-content {
   display: grid;
-  gap: 1rem;
-  padding: 1.5em;
+  gap: 0.5rem;
+  padding: 2em;
 }
 
 .product-content h3 {
@@ -150,7 +150,7 @@ body {
   justify-content: center;
   background-color: var(--clr--green--accent);
   color: #fff;
-  padding: 0.25em;
+  padding: 0.75em;
   border-radius: 10px;
   gap: 0.5rem;
   font-weight: 700;
@@ -172,5 +172,17 @@ body {
 @media (min-width: 600px) {
   .product {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-content h1 {
+    max-width: 12ch;
+  }
+
+  .product-content {
+    padding-block: 3rem;
+  }
+
+  .product__description {
+    max-width: 25ch;
   }
 }

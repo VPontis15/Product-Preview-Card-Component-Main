@@ -169,7 +169,7 @@ body {
   background-color: var(--clr--green--accent-dark);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 37.5em) {
   .product {
     grid-template-columns: repeat(2, 1fr);
   }

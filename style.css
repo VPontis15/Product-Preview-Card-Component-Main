@@ -19,11 +19,10 @@ body {
 }
 /*
     Typographic tweaks!
-    4. Add accessible line-height
+
     5. Improve text rendering
   */
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 /*
@@ -92,6 +91,7 @@ body {
   font-size: 0.875rem;
   display: grid;
   place-content: center;
+  line-height: 1.5;
 }
 
 .product {
@@ -120,7 +120,7 @@ body {
   font-family: var(--ff--heading);
   max-width: 17ch;
   font-size: 2rem;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 .product__description {
